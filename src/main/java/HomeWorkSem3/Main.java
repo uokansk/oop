@@ -8,7 +8,13 @@ public class Main {
         vectorList.add(18);
         vectorList.add(25);
         vectorList.add(30);
-        for(Integer item : vectorList){
+        for (Integer item : vectorList) {
+            System.out.println(item);
+        }
+        VectorList<String> vectorString = new VectorList<>();
+        vectorString.add("first");
+        vectorString.add("second");
+        for (String item : vectorString) {
             System.out.println(item);
         }
     }
